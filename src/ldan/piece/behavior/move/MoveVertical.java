@@ -1,10 +1,11 @@
 package ldan.piece.behavior.move;
 
 import ldan.piece.behavior.interfaceBehavior.IMoveBehavior;
+import ldan.service.Print;
 
-public class MoveDirectByVertical implements IMoveBehavior {
+public class MoveVertical implements IMoveBehavior {
     @Override
     public void move() {
-        //move piece on 1 step forward
+        Print.printf("move piece on 1 step forward");
     }
 }

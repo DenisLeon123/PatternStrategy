@@ -1,7 +1,10 @@
-package ldan.figures.properties;
+package ldan.piece.properties;
 
-public enum NameFigures {
+public enum NamePiece {
     PAWN,
     ROOK,
-    
+    KNIGHT,
+    BISHOP,
+    QUEEN,
+    KING
 }

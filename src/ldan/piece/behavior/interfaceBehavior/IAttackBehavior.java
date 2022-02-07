@@ -1,4 +1,5 @@
-package ldan.piece.behavior;
+package ldan.piece.behavior.interfaceBehavior;
 
-public interface AttackBehavior {
+public interface IAttackBehavior {
+    void attack();
 }

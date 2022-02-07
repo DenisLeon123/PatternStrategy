@@ -1,4 +1,11 @@
-package ldan.piece.behavior.interfaceBehavior;
+package ldan.piece.behavior.move;
 
-public class MoveDirectForOne {
+import ldan.piece.behavior.interfaceBehavior.IMoveBehavior;
+import ldan.service.Print;
+
+public class MoveDirectForOne implements IMoveBehavior {
+    @Override
+    public void move() {
+        Print.printf("move piece on 1 step forward");
+    }
 }

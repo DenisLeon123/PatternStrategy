@@ -1,4 +1,4 @@
-package ldan.figures.properties;
+package ldan.piece.properties;
 
 public enum Color {
     BLACK,
